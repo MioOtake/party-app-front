@@ -17,6 +17,7 @@
     "package_name": "^1.0.2",
     "react": "^18.2.0",
     "react-bootstrap": "^2.8.0",
+    "react-cookie": "^6.1.1",
     "react-cropper": "^2.3.3",
     "react-dom": "^18.2.0",
     "react-image-base64": "^1.1.2",

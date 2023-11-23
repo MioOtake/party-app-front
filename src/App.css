@@ -1,120 +1,145 @@
 .slick-prev:before,
 .slick-next:before {
-  color: #000; /*黒にする*/
-  opacity: 1; /*デフォルトは.75が指定されている*/
+	color: #000; /*黒にする*/
+	opacity: 1; /*デフォルトは.75が指定されている*/
 }
 
 .slick-prev,
 .slick-next {
-  width: 300px;
-  height: 350px;
+	width: 300px;
+	height: 350px;
 }
 
 .Card {
-  border: red;
+	border: red;
 }
 
 .text {
-  text-align: center;
-  font-weight: bold;
-  color: white;
+	text-align: center;
+	font-weight: bold;
+	color: white;
 }
 
 .bluetext {
-  text-align: center;
-  font-weight: bold;
-  color: #6b68ff;
-  font-size: 18pt;
+	text-align: center;
+	font-weight: bold;
+	color: #6b68ff;
+	font-size: 18pt;
 }
 
 .centered-container {
-  display: flex;
-  justify-content: center;
-  /* 水平方向に中央配置 */
-  align-items: center;
-  /* 垂直方向に中央配置  */
-  height: 100vh;
-  /* ウィンドウの高さいっぱいに配置 */
+	display: flex;
+	justify-content: center;
+	/* 水平方向に中央配置 */
+	align-items: center;
+	/* 垂直方向に中央配置  */
+	height: 100vh;
+	/* ウィンドウの高さいっぱいに配置 */
+}
+
+.centered-container-Profile-Submit {
+	display: flex;
+	justify-content: center;
+	/* 水平方向に中央配置 */
+	align-items: center;
+	/* 垂直方向に中央配置  */
+	/* ウィンドウの高さいっぱいに配置 */
+	min-height: 100vh; /* ビューポートの高さに最低限合わせる */
+	display: flex; /* フレックスコンテナにする */
+	align-items: flex-start; /* アイテムを下詰めに配置 */
 }
 
 .center-text {
-  text-align: center; /* テキストを中央揃えにする */
-  position: absolute;
-  top: 20%; /* 上端から50%の位置に配置 */
-  left: 50%; /* 左端から50%の位置に配置 */
-  transform: translate(-50%, -50%); /* テキストを中央に配置 */
+	text-align: center; /* テキストを中央揃えにする */
+	position: absolute;
+	top: 20%; /* 上端から50%の位置に配置 */
+	left: 50%; /* 左端から50%の位置に配置 */
+	transform: translate(-50%, -50%); /* テキストを中央に配置 */
 }
 
 .center-card-text {
-  text-align: center; /* テキストを中央揃えにする */
+	text-align: center; /* テキストを中央揃えにする */
 }
 
 .card_radius {
-  border-radius: 10%;
+	border-radius: 10%;
 }
 
 .round_shape {
-  border-radius: 100%;
-  background: chartreuse;
+	border-radius: 100%;
+	background: chartreuse;
 }
 
 .page_title {
-  color: white;
-  text-align: center; /* テキストを中央揃えにする */
-  position: absolute;
-  top: 20%; /* 上端から50%の位置に配置 */
-  left: 50%; /* 左端から50%の位置に配置 */
-  transform: translate(-50%, -50%); /* テキストを中央に配置 */
-  font-weight: bold;
+	color: white;
+	text-align: center; /* テキストを中央揃えにする */
+	position: absolute;
+	top: 10%; /* 上端から50%の位置に配置 */
+	left: 50%; /* 左端から50%の位置に配置 */
+	transform: translate(-50%, -50%); /* テキストを中央に配置 */
+	font-weight: bold;
 }
 
 .stylish-text {
-  font-weight: bold;
-  font-style: italic;
-  color: #3366ff;
+	font-weight: bold;
+	font-style: italic;
+	color: #3366ff;
 }
 
 /* ポップアップ用のスタイル */
 .popup-overlay {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(0, 0, 0, 0.5); /* 背景を半透明に */
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  z-index: 999; /* 他の要素よりも前面に表示 */
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.5); /* 背景を半透明に */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	z-index: 999; /* 他の要素よりも前面に表示 */
 }
 
 .popup-content {
-  background: #ffffff;
-  padding: 20px;
-  border-radius: 5px;
-  text-align: center;
+	background: #ffffff;
+	padding: 20px;
+	border-radius: 5px;
+	text-align: center;
 }
 
 .SubmitGray {
-  color: #bbb;
+	color: #bbb;
 }
 
 .fixed_btn {
-  position: fixed;
-  bottom: 10px;
-  right: 10px;
-  /* padding: 5px; */
-  width: 80px; /* 半円の横幅 */
-  height: 80px; /* 半円の高さ */
-  background-color: #6b68ff; /* 半円の背景色 */
-  border-radius: 100%;
-  font-weight: bold;
-  color: white;
-  font-size: 50pt;
+	position: fixed;
+	bottom: 10px;
+	right: 10px;
+	/* padding: 5px; */
+	width: 80px; /* 半円の横幅 */
+	height: 80px; /* 半円の高さ */
+	background-color: #6b68ff; /* 半円の背景色 */
+	border-radius: 100%;
+	font-weight: bold;
+	color: white;
+	font-size: 35pt;
 }
 
+/* .fixed_btn {
+	position: fixed;
+	bottom: 10px;
+	right: 10px;
+	width: 80px; 
+	height: 80px; 
+	background-color: #6b68ff;
+	border-radius: 100%;
+	font-weight: bold;
+	color: white;
+	font-size: 50pt;
+} */
+
 .parent_button {
-  /* justify-content: center;
+	/* justify-content: center;
   align-items: center;
   text-align: center;
   display: flex;
@@ -122,7 +147,13 @@
 }
 
 .plus {
-  top: 50%; /* テキストを垂直方向の中央に配置 */
-  left: 50%; /* テキストを水平方向の中央に配置 */
-  transform: translate(20%, -15%); /* 中央揃えの調整 */
+	top: 50%; /* テキストを垂直方向の中央に配置 */
+	left: 50%; /* テキストを水平方向の中央に配置 */
+	transform: translate(20%, 0%); /* 中央揃えの調整 */
 }
+
+/* .plus {
+	top: 50%;
+	left: 50%; 
+	transform: translate(20%, -15%); 
+} */
